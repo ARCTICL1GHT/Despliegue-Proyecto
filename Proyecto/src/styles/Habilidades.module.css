@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Autour+One:wght@400&display=swap");
+.flexcolumna{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+.cuerpo{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(270deg, rgba(108, 107, 64, 0.2) 50%,
+  rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, rgba(108, 107, 64, 0.2) 50%,
+  rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(20, 97, 91, 0.2) 0%,
+  rgba(255, 255, 255, 0.2) 52.08%), #14605B;
+}
+.barra{
+  top: 0;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  background-color: #14605b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.letras{
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 1.7vw;
+  font-family: audiowide;
+  font-style: normal;
+}
+.proyeccion,
+.contenido{
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(1vw + 0.3em);
+}
+.contenido{
+  margin-bottom: 3vw;
+}
+.corregir{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.imagendis{
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.imagendis1{
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.fototxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-size: calc(1em + 0.2vw);
+}

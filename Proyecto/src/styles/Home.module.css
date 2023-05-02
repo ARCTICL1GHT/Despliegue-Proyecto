@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Autour+One:wght@400&display=swap");
+.flexcolumna{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+.cuerpo{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(270deg, rgba(108, 107, 64, 0.2) 50%,
+  rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, rgba(108, 107, 64, 0.2) 50%,
+  rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(20, 97, 91, 0.2) 0%,
+  rgba(255, 255, 255, 0.2) 52.08%), #14605B;
+}
+.barra{
+  top: 0;
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: #14605b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.letras{
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 1.7vw;
+  font-family: audiowide;
+  font-style: normal;
+}
+.intro{
+  display: block;
+  width: 100%;
+  height: 70%;
+  background-color: #14605b;
+  overflow: hidden;
+}
+.color{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  bottom: 0.76%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 38.02%, rgba(0, 0, 0, 0) 100%),
+      radial-gradient(93.32% 93.32% at 50% -5.08%, #20FF5E 0%,
+    rgba(53, 206, 110, 0.723958) 23.44%,
+    rgba(26, 175, 106, 0.40625) 49.48%,
+    rgba(100, 107, 142, 0) 100%);
+}
+.separadorg{
+  display: flex;
+  top: 54.9vh;
+  left: 0;
+  border-top: 30px solid #212a32;
+  box-sizing: border-box;
+  width: 100%;
+}
+.introtxt{
+  width: 100%;
+  height: 100%;
+  left: calc(50% - 928px/2 + 18.5px);
+  margin-top: 4em;
+  margin-left: calc(-1vw - 1em);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.separadorp{
+  display: flex;
+  top: 54.9vh;
+  left: 0;
+  border-top: 15px solid #212a32;
+  box-sizing: border-box;
+  width: 100%;
+}
+.nombre,
+.carrera,
+.apellido{
+  font-size: calc(1em + 0.5vw);
+  font-family: audiowide;
+  font-style: normal;
+}
+.saludo{
+  font-family: audiowide;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1vw + 1em);
+}
+.soy{
+  font-size: calc(0.1vw + 0.8em);
+  margin-top: -1%;
+  margin-left: 10%;
+}
+.contenedor{
+  width: 60vw;
+}
+.apellido{
+  margin-left: 15%;
+  margin-top: -1%;
+}
+.nombre{
+  margin-left: 37%;
+  margin-top: -1%;  
+}
+.carrera{
+  position: absolute;
+  margin-left: -1vw;
+  margin-top: 8%;
+  z-index: 1;
+}
+.corregir{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ajustefoto{
+  width: 34vw;
+  height: auto;
+  margin-left: 10px;
+}
+.ajustefoto1{
+  width: 5vw;
+  cursor: pointer;
+}
+.foto{
+  display: flex;
+  margin-top: 1vh;
+  overflow: hidden;
+  width: 20vw;
+}
+.demi{
+  margin-top: 1vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  font-style: "Autour One";
+  font-size: calc(1em + 1vw);
+  margin-left: -15vw;
+}
+.mi{
+  margin-left: 2vw;
+  font-size: calc(0.5em + 0.5vw);
+}
+.conocimientos {
+  margin-bottom: 1vw;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.7vw;
+  font-family: audiowide;
+  font-style: normal;
+  text-align: center;
+}
+.frameconocimiento{
+  overflow: hidden;
+  top: 519px;
+  background: linear-gradient(
+      180deg,
+      rgba(20, 97, 91, 0.2),
+      rgba(255, 255, 255, 0.2) 52.08%
+    ),
+    #14605b;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.imagendis{
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.imagendis1{
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.espacio{
+  width: 100px;
+  height: 100px;
+}
+.imagenregular{
+  overflow: hidden;
+  width: 50%;
+}
+.anunciador{
+  width: 100%;
+  height: 100%;
+}
+.framegroup{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.java{
+  display: flex;
+  flex-direction: column;
+  margin-top: -2vh;
+  overflow: hidden;
+  width: 100%;
+}
+.javatxt{
+  margin-top: -1vw;
+}
+.alineacion{
+  width: 100%;
+}
+.frameredes{
+  overflow: hidden;
+  top: 519px;
+  background: linear-gradient(
+      180deg,
+      rgba(20, 97, 91, 0.2),
+      rgba(255, 255, 255, 0.2) 52.08%
+    ),
+    #14605b;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+  .barra{
+    top: 0;
+    display: flex;
+    height: 10vw;
+    width: 100%;
+    background-color: #14605b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ajustefoto1{
+    width: 8vw;
+    cursor: pointer;
+  }
+  .frameconocimiento{
+    overflow: hidden;
+    top: 519px;
+    background: linear-gradient(
+        180deg,
+        rgba(20, 97, 91, 0.2),
+        rgba(255, 255, 255, 0.2) 52.08%
+      ),
+      #14605b;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .imagendis{
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .letras{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 1vh;
+    font-family: audiowide;
+    font-style: normal;
+  }
+  .intro{
+    width: 100%;
+    height: 30vw;
+    background-color: #14605b;
+    overflow: hidden;
+  }
+  .color{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    bottom: 0.76%;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 38.02%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(93.32% 93.32% at 50% -5.08%, #20FF5E 0%,
+      rgba(53, 206, 110, 0.723958) 23.44%,
+      rgba(26, 175, 106, 0.40625) 49.48%,
+      rgba(100, 107, 142, 0) 100%);
+  }
+  .frameredes{
+    overflow: hidden;
+    top: 519px;
+    background: linear-gradient(
+        180deg,
+        rgba(20, 97, 91, 0.2),
+        rgba(255, 255, 255, 0.2) 52.08%
+      ),
+      #14605b;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .foto{
+    margin-left: 0%;
+  }
+  .java{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  .saludo{
+    font-size: 2.5vw;
+  }
+  .imagenregular{
+    overflow: hidden;
+    width: 30%;
+  }
+  .apellido,
+  .carrera,
+  .nombre{
+    font-size: 2vw;
+  }
+  .demi
+  {
+    font-size: 3vw;
+  }
+  .separadorg{
+    display: flex;
+  top: 54.9vh;
+  left: 0;
+  border-top: 15px solid #212a32;
+  box-sizing: border-box;
+  width: 100%;
+  }
+  
+}
